@@ -1,0 +1,68 @@
+name: Test report
+description: Report the result of testing an Infobit control driver against real hardware
+title: "[Test report]: "
+labels:
+  - test-report
+  - needs-review
+body:
+  - type: input
+    id: model
+    attributes:
+      label: Driver / model
+      description: Which Infobit device driver did you test?
+      placeholder: e.g. C604
+    validations:
+      required: true
+  - type: input
+    id: driver-version
+    attributes:
+      label: Driver version
+    validations:
+      required: true
+  - type: input
+    id: platform-version
+    attributes:
+      label: Platform and platform software version
+      placeholder: e.g. Q-SYS Designer 10.4.1
+    validations:
+      required: true
+  - type: input
+    id: firmware-version
+    attributes:
+      label: Infobit device firmware version
+    validations:
+      required: true
+  - type: checkboxes
+    id: what-was-tested
+    attributes:
+      label: What was tested
+      description: Check everything you tested. Add anything not listed as free text in Details/logs below.
+      options:
+        - label: Power on/off
+        - label: Input/output switching
+        - label: Volume/mute
+        - label: Status/feedback reporting
+        - label: Connection recovery (device reboot, network drop)
+        - label: Other (describe in Details/logs)
+  - type: dropdown
+    id: result
+    attributes:
+      label: Result
+      options:
+        - All passed
+        - Some failed
+        - Could not connect
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details/logs
+      description: What you tested, what happened, and any logs or error messages.
+  - type: checkboxes
+    id: acknowledgement
+    attributes:
+      label: Acknowledgement
+      options:
+        - label: I understand a test report is reviewed by Infobit staff and can raise a driver to Community tested at most.
+          required: true

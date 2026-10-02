@@ -1,0 +1,21 @@
+Infobit Control Driver Licence, version 1.0
+
+Copyright (c) 2026 Infobit AV Pte. Ltd. ("Infobit"). All rights reserved except as granted below.
+
+1. Grant. Subject to the conditions below, Infobit grants you a free, worldwide, non-exclusive, non-transferable licence to use, copy and modify the software in this repository (the "Software"), and to install it in control systems you build or maintain for yourself or your customers.
+
+2. Infobit products only. You may use the Software, and any modified version of it, only to control or monitor genuine Infobit-branded products. You may not use it, or any part of it, with or for any product sold under another brand, even where that product shares hardware, firmware or a control protocol with an Infobit product.
+
+3. No rebranding. You may not remove or alter any Infobit name, copyright notice or this licence, and you may not present the Software or any modified version of it as the work or product of anyone other than Infobit.
+
+4. Distribution. You may pass the Software on only as part of a control system that uses it under section 2, with this licence included. You may not sell the Software on its own, or publish it, or a modified version of it, in any driver library, marketplace or repository other than this one.
+
+5. Trademarks. This licence grants no right to use Infobit's names, logos or trademarks, except to identify the Software truthfully.
+
+6. No warranty. The Software is provided "as is", without warranty of any kind, express or implied, including fitness for a particular purpose. Status labels in this repository describe testing done, not a guarantee.
+
+7. Limitation of liability. To the extent the law allows, Infobit is not liable for any loss or damage arising from the Software or its use.
+
+8. Termination. This licence ends automatically if you break any of its conditions. On termination you must stop using and distributing the Software.
+
+9. Governing law. This licence is governed by the laws of Singapore.

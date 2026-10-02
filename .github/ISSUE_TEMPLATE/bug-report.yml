@@ -1,0 +1,45 @@
+name: Bug report
+description: Report something not working in an Infobit control driver
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: input
+    id: model
+    attributes:
+      label: Driver / model
+      description: Which Infobit device driver is this about?
+      placeholder: e.g. C604
+    validations:
+      required: true
+  - type: input
+    id: driver-version
+    attributes:
+      label: Driver version
+    validations:
+      required: true
+  - type: input
+    id: platform-version
+    attributes:
+      label: Platform and platform software version
+      placeholder: e.g. Q-SYS Designer 10.4.1
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behaviour
+    validations:
+      required: true
